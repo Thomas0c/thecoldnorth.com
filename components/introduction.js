@@ -70,23 +70,18 @@ export default () => {
 			</Name>
 			<Divider />
 			<Text>
-				Full stack developer. Recently relocated from NYC to Copenhagen. <br />
-				Hybrid problem solver, avid learner and breaker of things. Looking for
-				my next adventure.
+			Professional problem solver (full stack dev). <br />
+			Recently relocated from NYC to Copenhagen. <br /><br />
+			Never not learning and breaker of things. Fond of driving change and shaping the future.<br />
+			Big on problem solving through a combination of programming, UX and strategy.
 			</Text>
 			<br />
 			<Title>About</Title>
 			<Divider />
 			<Text>
-				Well versed in HTML, CSS, SASS, JavaScript (React, Next.js, React
-				Native, Redux, css-in-js, Angular), Webpack, NodeJS (Express), NoSQL,
-				Docker and Swift.
-				<br />
-				<br />Comfortable working with AWS, Heroku, Google Cloud, Terraform and
-				Packer.<br />
-				Prefer to do version control with Git, UX in Sketch, development in Atom
-				and architecture as code using Terraform. Big on combining strategy &
-				technology.
+				HTML, CSS, SASS, JavaScript (React, React Native, Redux, css-in-js, Angular), Webpack Node, NoSQL, Docker and Swift. That’s my jam! AWS, Heroku, Google Cloud, Terraform and Packer are my go-tos.
+				<br /><br />
+				My professional swiss knife includes Github, Sketch, Framer, Atom and Terraform.
 			</Text>
 			<br />
 			<Button href="mailto:thomas@thecoldnorth.com?Subject=Winter%20Is%20Coming">
