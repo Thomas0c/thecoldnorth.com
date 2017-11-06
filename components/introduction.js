@@ -79,7 +79,8 @@ export default () => {
 			<Title>About</Title>
 			<Divider />
 			<Text>
-				HTML, CSS, SASS, JavaScript (React, React Native, Redux, css-in-js, Angular), Webpack Node, NoSQL, Docker and Swift. That’s my jam! AWS, Heroku, Google Cloud, Terraform and Packer are my go-tos.
+				HTML, CSS, SASS, JavaScript (React, React Native, Redux, css-in-js, Angular), Webpack Node, NoSQL and Swift. That’s my jam!
+				<br />AWS, Heroku, Google Cloud, Docker, Kubernetes, Terraform and Packer are my go-tos.
 				<br /><br />
 				My professional swiss knife includes Github, Sketch, Framer, Atom and Terraform.
 			</Text>
