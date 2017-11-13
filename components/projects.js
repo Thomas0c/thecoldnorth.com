@@ -46,12 +46,16 @@ export default () => {
 						</Title>
 						<Divider />
 						<Text>
-							Experimented with React Native, Realm and Redux re-doing the
-							infamous weather app from scratch using the DarkSky API while
-							getting familiar with the stack. Worked on project from concept to
-							UX, design and finally releasing the final product on the{' '}
+							React Native experiment including Realm, Redux and DarkSky API.
+							Wanted to become familiar with React Native as well as the flow and requirements
+							for launching an application in the Apple App Store.
+							Worked on project from UX, design and final realease on the
 							<AppStoreLink href="https://itunes.apple.com/us/app/solar-weather-collection/id1220264561?mt=8">
 								App Store
+							</AppStoreLink>.
+							Codebase opensourced on
+							<AppStoreLink href="https://github.com/Thomas0c/solar-weather">
+								GitHub
 							</AppStoreLink>.
 						</Text>
 					</Section>

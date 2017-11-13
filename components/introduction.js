@@ -70,22 +70,22 @@ export default () => {
 			</Name>
 			<Divider />
 			<Text>
-			Professional problem solver (full stack dev). <br />
-			Recently relocated from NYC to Copenhagen. <br /><br />
-			Never not learning and breaker of things. Fond of driving change and shaping the future.<br />
-			Big on problem solving through a combination of programming, UX and strategy.
+			Interdisciplinary problem solver and full stack developer.<br />
+			Prefer to work <b>with</b> someone rather than for them.
+			Fond of pushing boundaries and shaping the future.<br />
+			Big on gettings things done and problem solving through a combination of programming, UX and strategy.
 			</Text>
 			<br />
 			<Title>About</Title>
 			<Divider />
 			<Text>
-				HTML, CSS, SASS, JavaScript (React, React Native, Redux, css-in-js, Angular), Webpack Node, NoSQL and Swift. That’s my jam!
-				<br />AWS, Heroku, Google Cloud, Docker, Kubernetes, Terraform and Packer are my go-tos.
+				HTML, CSS, SASS, JavaScript (React/RN, Redux, Angular, jasmine, jest), Webpack, Node, NoSQL and Swift. That’s my jam!
+				<br />AWS, Docker/K8s, Circle CI, Terraform and Packer are my go-tos.
 				<br /><br />
-				My professional swiss knife includes Github, Sketch, Framer, Atom and Terraform.
+				My swiss knife includes Atom, Framer, Github & Sketch.
 			</Text>
 			<br />
-			<Button href="mailto:thomas@thecoldnorth.com?Subject=Winter%20Is%20Coming">
+			<Button href="mailto:thomas@thecoldnorth.com?Subject=Fancy%20a%20coffee?">
 				<img src="./static/email.svg" />
 			</Button>
 			<Button href="https://github.com/Thomas0c">

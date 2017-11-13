@@ -44,13 +44,13 @@ export default () => {
 
 						<Divider />
 						<Text>
-							Worked out of Siberia’s NYC office spearheading client projects
-							during exploration, development and deployment phase. Worked with
-							Fortune 500 clients and startups taking their very first steps.
-							Built chatbots, websites, services, prototypes and native apps.
-							Also worked on-site with clients doing strategic research and
-							innovation outlooks taking ideas from creation to testing and
-							launching of new products and services.
+							Worked out of experience design agency Siberia’s NYC office.
+							Spearheading projects going from exploration to development until launch.
+							Worked with Fortune 500 companies as well as startups.
+							Projects include chatbots, API services, websites, prototypes and native apps.
+							Also worked on-site as part of client teams doing strategic research and
+							innovation outlooks taking ideas from creation to testing and finally
+							launch of new products and services.
 						</Text>
 					</Section>
 
@@ -64,9 +64,9 @@ export default () => {
 						</Title>
 						<Divider />
 						<Text>
-							Worked as creative technologist helping establish brand new agency
-							Another when established in August 2013. Responsible for all
-							digital products and projects including campaigns for SELECTED,
+							Helped establish the brand new agency Another in August 2013 and
+							became their digital corner stone for a while.
+							Responsible for most digital projects including campaigns for SELECTED,
 							Birger1962, Wood Wood and BØRNEfonden.
 						</Text>
 					</Section>
