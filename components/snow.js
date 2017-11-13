@@ -18,7 +18,7 @@ const Snow = glamorous.div({
 	top: 0,
 	width: '100%',
 	zIndex: 0,
-	animation: `${snowMovement} 25s linear infinite`,
+	animation: `${snowMovement} 180s linear infinite`,
 	'@media(max-device-width: 1024px)': {
 		opacity: 0.5
 	}

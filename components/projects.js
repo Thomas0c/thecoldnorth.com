@@ -18,7 +18,7 @@ const ProjectWrapper = glamorous.div({
 	backgroundColor: '#4B575F',
 	marginTop: '0px',
 	paddingTop: '20px',
-	paddingBottom: '2rem',
+	paddingBottom: '1.5rem',
 	'@media(max-device-width: 640px)': {
 		paddingTop: '40px'
 	}
@@ -49,13 +49,13 @@ export default () => {
 							React Native experiment including Realm, Redux and DarkSky API.
 							Wanted to become familiar with React Native as well as the flow and requirements
 							for launching an application in the Apple App Store.
-							Worked on project from UX, design and final realease on the
+							Worked on project from UX, design and final realease on the{' '}
 							<AppStoreLink href="https://itunes.apple.com/us/app/solar-weather-collection/id1220264561?mt=8">
-								App Store
+								 App Store
 							</AppStoreLink>.
-							Codebase opensourced on
+							Codebase opensourced on{' '}
 							<AppStoreLink href="https://github.com/Thomas0c/solar-weather">
-								GitHub
+								 GitHub
 							</AppStoreLink>.
 						</Text>
 					</Section>
