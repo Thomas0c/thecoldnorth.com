@@ -73,7 +73,7 @@ export default () => {
 			Interdisciplinary problem solver and full stack developer.<br />
 			Prefer to work <b>with</b> someone rather than for them.<br />
 			Fond of pushing boundaries and shaping the future.<br />
-			Big on gettings things done and problem solving through a combination of programming, UX and strategy.
+			Big on gettings things done and problem solving through a<br /> combination of programming, UX and strategy.
 			</Text>
 			<br />
 			<Title>About</Title>
