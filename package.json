@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "",
@@ -17,7 +19,8 @@
     "next": "4.2.3",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
-    "react-ga": "^2.2.0"
+    "react-ga": "^2.2.0",
+    "snyk": "^1.85.0"
   },
   "devDependencies": {
     "eslint": "^4.6.1",
@@ -26,5 +29,6 @@
     "eslint-plugin-prettier": "^2.2.0",
     "prettier": "^1.6.1",
     "yarn": "^1.0.0"
-  }
+  },
+  "snyk": true
 }
