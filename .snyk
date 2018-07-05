@@ -28,3 +28,8 @@ patch:
         patched: '2018-07-01T12:53:10.065Z'
     - npm > libcipm > npm-lifecycle > node-gyp > request > hawk > cryptiles > boom > hoek:
         patched: '2018-07-01T12:53:10.065Z'
+  'npm:lodash:20180130':
+    - npm > cli-table2 > lodash:
+        patched: '2018-07-05T06:56:30.552Z'
+    - npm > npm-audit-report > cli-table2 > lodash:
+        patched: '2018-07-05T06:56:30.552Z'
