@@ -1,4 +1,4 @@
 # Global settings applied to the whole site.
 [build]
   publish = "out"
-  command = "yarn run build"
+  command = "npm run build"
