@@ -11,25 +11,22 @@
     "prepare": "npm run snyk-protect"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Thomas Carlson",
+  "license": "MIT",
   "dependencies": {
     "glamor": "2.20.40",
-    "glamorous": "4.6.0",
-    "next": "^6.1.1",
-    "npm": "^6.1.0",
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-ga": "2.2.0",
-    "snyk": "^1.88.1"
+    "glamorous": "4.13.1",
+    "next": "6.1.1",
+    "react": "16.4.1",
+    "react-dom": "16.4.1",
+    "react-ga": "2.5.3"
   },
   "devDependencies": {
     "eslint": "4.6.1",
     "eslint-config-prettier": "2.4.0",
     "eslint-plugin-import": "2.7.0",
     "eslint-plugin-prettier": "2.2.0",
-    "prettier": "1.6.1",
-    "yarn": "1.0.0"
+    "prettier": "1.13.7"
   },
   "snyk": true
 }
