@@ -43,6 +43,14 @@ export default class MyDocument extends Document {
 						href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700"
 						rel="stylesheet"
 					/>
+					<link
+						href="https://fonts.googleapis.com/css?family=Spectral:200,300"
+						rel="stylesheet"
+					/>
+					<link
+						href="https://fonts.googleapis.com/css?family=Open+Sans:200,300"
+						rel="stylesheet"
+					/>
 					<meta name="viewport" content="width=device-width, initial-scale=1" />
 					<style dangerouslySetInnerHTML={{ __html: this.props.css }} />
 				</Head>

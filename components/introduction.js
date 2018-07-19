@@ -3,89 +3,60 @@ import glamorous from 'glamorous';
 
 import Divider from './divider';
 import Text from './text';
+import YellowLink from './coloredLink';
+import { Colors, Fonts } from '../config';
 
 const Introduction = glamorous.div({
 	width: '50%',
-	maxWidth: '600px',
-	margin: '0 auto',
-	color: '#FFF',
+	marginLeft: '2em',
+	color: Colors.white,
 	zIndex: 5,
 	position: 'relative',
-	'@media(max-device-width: 640px)': {
-		maxWidth: '85%',
+	'@media(max-width: 1024px)': {
 		width: '85%',
 		marginTop: '2vh'
 	}
 });
 
-const Name = glamorous.div({
+const EntryLine = glamorous.div({
 	width: '100%',
-	fontSize: '2.5em',
-	lineHeight: 1,
-	color: '#FFF',
-	fontFamily: 'Playfair Display'
-});
-
-const Title = glamorous.p({
-	fontSize: 22,
-	lineHeight: 1,
-	fontFamily: 'Playfair Display',
-	color: '#FFF',
-	'@media(max-device-width: 640px)': {
-		fontSize: 32
+	fontSize: '36px',
+	lineHeight: Fonts.lineHeight,
+	color: Colors.white,
+	fontFamily: Fonts.default,
+	'@media(max-width: 1024px)': {
+		fontSize: '28px',
 	}
 });
 
 const Button = glamorous.a({
-	fontFamily: 'Playfair Display',
-	color: '#FFD186',
+	fontFamily: Fonts.default,
+	color: Colors.yellow,
 	fontSize: 14,
 	cursor: 'pointer',
 	letterSpacing: 0.5,
 	margin: '0 10px 0 0',
 	textDecoration: 'none',
 	transition: 'all .3s',
-	'@media only screen and (max-device-width: 1024px)': {
+	'@media(max-width: 1024px)': {
 		margin: '0 20px 0 0'
 	},
 	':hover': {
-		opacity: 0.5
-	}
-});
-
-const Image = glamorous.img({
-	width: 40,
-	marginRight: 10,
-	'@media only screen and (max-device-width: 640px)': {
-		width: 40,
-		marginRight: 0
+		opacity: 0.5,
 	}
 });
 
 export default () => {
 	return (
 		<Introduction>
-			<Name>
-				Thomas <b>Carlson</b>
-			</Name>
+			<EntryLine>
+				Thomas Carlson is a developer at <YellowLink href="http://ustwo.com/">ustwo</YellowLink> in Malmö. <br />
+				Equal parts problem solver &amp; creative full stack developer.
+			</EntryLine>
 			<Divider />
-			<Text>
-			Interdisciplinary problem solver and full stack developer.<br />
-			Prefer to work <b>with</b> someone rather than for them.<br />
-			Fond of pushing boundaries and shaping the future.<br />
-			Big on gettings things done and problem solving through a<br /> combination of programming, UX and strategy.
-			</Text>
+			<Text>Swiss knife includes React (Native), Node, ReasonML, Swift, containers &amp; infrastructure-as-code.</Text>
 			<br />
-			<Title>About</Title>
-			<Divider />
-			<Text>
-				HTML, CSS, SASS, JavaScript (React/RN, Redux, Angular, jasmine, jest), Webpack, Node, NoSQL and Swift. That’s my jam!
-				<br />AWS, Docker/K8s, Circle CI, Terraform and Packer are my go-tos.
-				<br /><br />
-				My swiss knife includes Atom, Framer, Github & Sketch.
-			</Text>
-			<br />
-			<Button href="mailto:thomas@thecoldnorth.com?Subject=Fancy%20a%20coffee?">
+			<Button href="mailto:thomas@thecoldnorth.com">
 				<img src="./static/email.svg" />
 			</Button>
 			<Button href="https://github.com/Thomas0c">
@@ -100,3 +71,5 @@ export default () => {
 		</Introduction>
 	);
 };
+
+

@@ -1,5 +1,5 @@
-import React from 'react';
 import glamorous from 'glamorous';
+import { Fonts, Colors } from '../config';
 
 const Title = glamorous.p({
 	fontSize: 20,
@@ -7,8 +7,8 @@ const Title = glamorous.p({
 	marginBottom: 0,
 	display: 'inline',
 	paddingBottom: 0,
-	color: '#FFF',
-	fontFamily: 'Playfair Display'
+	color: Colors.white,
+	fontFamily: Fonts.body
 });
 
 export default Title;

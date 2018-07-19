@@ -1,13 +1,12 @@
-import React from 'react';
 import glamorous from 'glamorous';
+import { Fonts, Colors } from '../config';
 
-const Date = glamorous.p({
-	fontSize: 12,
-	display: 'inline',
-	marginLeft: '5px',
-	opacity: 0.5,
-	lineHeight: 0,
-	fontFamily: 'Playfair Display'
+const Date = glamorous.span({
+	fontSize: 18,
+	display: 'block',
+	lineHeight: 2,
+	fontFamily: Fonts.body,
+	color: Colors.yellow,
 });
 
 export default Date;

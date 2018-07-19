@@ -1,10 +1,11 @@
-import React from 'react';
 import glamorous from 'glamorous';
+import { Colors, Fonts } from '../config';
 
 const wrapper = glamorous.div({
 	width: '100%',
-	color: '#FFF',
-	marginBottom: '50px'
+	fontFamily: Fonts.body,
+	color: Colors.white,
+	marginBottom: '10px'
 });
 
 export default wrapper;

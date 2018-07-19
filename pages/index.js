@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { rehydrate, css } from 'glamor';
-import glamorous from 'glamorous';
 import { initGA, logPageView } from '../utils/analytics';
+import { Colors, Fonts } from '../config';
 
 // Components
 import Logo from '../components/logo';
@@ -28,8 +28,8 @@ const selectionStyles = {
 css.global('html, body', {
 	margin: 0,
 	padding: 0,
-	background: '#162027',
-	fontFamily: 'Helvetica Neue, Arial, sans-serif',
+	background: Colors.navy,
+	fontFamily: Fonts.body,
 	fontSize: 14
 });
 
@@ -43,13 +43,13 @@ export default class Layout extends Component {
 	}
 	render() {
 		return (
-			<div>
+			<>
 				<Logo />
 				<Introduction />
 				<Snow />
 				<Work />
 				<Projects />
-			</div>
+			</>
 		);
 	}
 }

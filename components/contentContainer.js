@@ -3,14 +3,12 @@ import glamorous from 'glamorous';
 
 const ContentContainer = glamorous.div({
 	width: '50%',
-	maxWidth: '600px',
 	minHeight: '30vh',
-	margin: '0 auto',
 	position: 'relative',
 	zIndex: 5,
-	'@media(max-device-width: 640px)': {
+	marginLeft: '2em',
+	'@media(max-width: 1024px)': {
 		width: '85%',
-		maxWidth: '85%'
 	}
 });
 

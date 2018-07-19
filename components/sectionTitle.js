@@ -1,15 +1,12 @@
-import React from 'react';
 import glamorous from 'glamorous';
+import { Colors, Fonts } from '../config';
 
 const SectionTitle = glamorous.p({
-	fontSize: 32,
-	color: '#FFF',
+	fontSize: 22,
+	color: Colors.white,
 	lineHeight: 1,
-	marginBottom: '55px',
-	fontFamily: 'Playfair Display',
-	'@media(max-device-width: 640px)': {
-		marginBottom: '40px'
-	}
+	marginBottom: '45px',
+	fontFamily: Fonts.default,
 });
 
 export default SectionTitle;

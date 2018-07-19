@@ -1,15 +1,14 @@
-import React from 'react';
 import glamorous from 'glamorous';
+import { Fonts, Colors } from '../config';
 
 const Text = glamorous.p({
 	fontSize: 14,
-	color: '#FFF',
-	fontFamily: 'Helvetica',
+	color: Colors.white,
+	fontFamily:  Fonts.body,
 	fontWeight: 200,
 	letterSpacing: 0.5,
 	lineHeight: 1.8,
-	'@media(max-device-width: 640px)': {
-		fontSize: 14,
+	'@media(max-width: 1024px)': {
 		marginTop: 20
 	}
 });

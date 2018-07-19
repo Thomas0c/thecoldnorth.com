@@ -1,92 +1,62 @@
 import React from 'react';
 import glamorous from 'glamorous';
+import { Colors } from '../config';
 
 // Elements
-import Divider from './divider';
-import Text from './text';
 import Section from './section';
+import Date from './date';
 import WorkContainer from './contentContainer';
 import SectionTitle from './sectionTitle';
 import Wrapper from './wrapper';
 import Title from './title';
-import Description from './description';
-import Date from './date';
 
 const WorkWrapper = glamorous.div({
 	width: '100%',
-	margin: '0 auto',
-	backgroundColor: '#2D3941',
-	marginTop: '55px',
+	backgroundColor: Colors.mediumBlue,
+	marginTop: '40px',
 	paddingTop: '20px',
-	paddingBottom: '2rem',
-	'@media(max-device-width: 640px)': {
+	paddingBottom: '20px',
+	'@media(max-width: 1024)': {
 		marginTop: '60px',
 		paddingTop: '50px',
 		paddingBottom: '1rem'
 	}
 });
 
+const work = [{
+	title: 'Developer',
+	place: 'ustwo',
+	start: '2018',
+	end: 'Present'
+}, {
+	title: 'Engineering Lead',
+	place: 'siberia',
+	start: '2015',
+	end: '2017',
+}, {
+	title: 'Creative Technologist',
+	place: 'Another',
+	start: '2013',
+	end: '2014'
+}, {
+	title: 'Digital Strategist',
+	place: 'Soulland',
+	start: '2011',
+	end: '2013'
+}];
+
 export default () => {
 	return (
 		<WorkWrapper>
 			<WorkContainer>
-				<SectionTitle>Work</SectionTitle>
-
+				<SectionTitle>Experience</SectionTitle>
 				<Wrapper>
-					<Section>
-						<Title>
-							Siberia
-							<Date>2014-2017</Date>
-							<Description>
-								Engineering <b>Lead</b>
-							</Description>
-						</Title>
-
-						<Divider />
-						<Text>
-							Worked out of experience design agency Siberia’s NYC office.
-							Spearheading projects going from exploration to development until launch.
-							Worked with Fortune 500 companies as well as startups.
-							Projects include chatbots, API services, websites, prototypes and native apps.
-							Also worked on-site as part of client teams doing strategic research and
-							innovation outlooks taking ideas from creation to testing and finally
-							launch of new products and services.
-						</Text>
-					</Section>
-
-					<Section>
-						<Title>
-							Another
-							<Date>2013-2014</Date>
-							<Description>
-								Creative <b>Technologist</b>
-							</Description>
-						</Title>
-						<Divider />
-						<Text>
-							Helped establish the brand new agency Another in August 2013 and
-							became their digital corner stone for a while.
-							Responsible for most digital projects including campaigns for SELECTED,
-							Birger1962, Wood Wood and BØRNEfonden.
-						</Text>
-					</Section>
-
-					<Section>
-						<Title>
-							Soulland
-							<Date>2011-2013</Date>
-							<Description>
-								Digital <b>Strategist</b>
-							</Description>
-						</Title>
-						<Divider />
-						<Text>
-							Responsible for everything digital for Danish menswear brand
-							Soulland including launching and building their webshop from
-							scratch as well as maintaining a forward-thinking profile in the
-							market with unusual concepts using bleeding edge technology.
-						</Text>
-					</Section>
+					{work.map((workPlace) => (
+						<Section>
+							<Date>{workPlace.start}-{workPlace.end}</Date>
+							<Title>{workPlace.title} at {workPlace.place}</Title>
+						</Section>
+					))}
 				</Wrapper>
 			</WorkContainer>
 		</WorkWrapper>
