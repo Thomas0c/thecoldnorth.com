@@ -19,7 +19,8 @@
     "next": "6.1.1",
     "react": "16.4.1",
     "react-dom": "16.4.1",
-    "react-ga": "2.5.3"
+    "react-ga": "2.5.3",
+    "snyk": "1.88.1"
   },
   "devDependencies": {
     "eslint": "4.6.1",
