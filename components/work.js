@@ -31,7 +31,7 @@ const work = [{
 }, {
 	title: 'Engineering Lead',
 	place: 'siberia',
-	start: '2015',
+	start: '2014',
 	end: '2017',
 }, {
 	title: 'Creative Technologist',
