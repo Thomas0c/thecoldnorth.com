@@ -24,22 +24,26 @@ const WorkWrapper = glamorous.div({
 
 const work = [{
 	title: 'Developer',
+	city: 'Malmö',
 	place: 'ustwo',
 	start: '2018',
 	end: 'Present'
 }, {
 	title: 'Engineering Lead',
 	place: 'siberia',
+	city: 'New York',
 	start: '2014',
 	end: '2017',
 }, {
 	title: 'Creative Technologist',
 	place: 'Another',
+	city: 'Copenhagen',
 	start: '2013',
 	end: '2014'
 }, {
 	title: 'Digital Strategist',
 	place: 'Soulland',
+	city: 'Copenhagen',
 	start: '2011',
 	end: '2013'
 }];
@@ -52,7 +56,7 @@ export default () => {
 				<Wrapper>
 					{work.map((workPlace) => (
 						<Section>
-							<Date>{workPlace.start}-{workPlace.end}</Date>
+							<Date>{workPlace.start}-{workPlace.end}, {workPlace.city}</Date>
 							<Title>{workPlace.title} at {workPlace.place}</Title>
 						</Section>
 					))}
