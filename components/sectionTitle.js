@@ -2,10 +2,10 @@ import glamorous from 'glamorous';
 import { Colors, Fonts } from '../config';
 
 const SectionTitle = glamorous.p({
-	fontSize: 22,
+	fontSize: Fonts.mediumSize,
 	color: Colors.white,
 	lineHeight: 1,
-	marginBottom: '45px',
+	marginBottom: '40px',
 	fontFamily: Fonts.default,
 });
 

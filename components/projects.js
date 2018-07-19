@@ -1,4 +1,3 @@
-import React from 'react';
 import glamorous from 'glamorous';
 import { Colors } from '../config';
 
@@ -17,10 +16,9 @@ const ProjectWrapper = glamorous.div({
 	width: '100%',
 	margin: '0 auto',
 	backgroundColor: Colors.lightBlue,
-	marginTop: '0px',
 	paddingTop: '20px',
 	paddingBottom: '.5rem',
-	'@media(max-device-width: 640px)': {
+	'@media(max-width: 1024)': {
 		paddingTop: '40px'
 	}
 });

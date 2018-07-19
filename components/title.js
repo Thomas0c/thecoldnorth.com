@@ -2,7 +2,7 @@ import glamorous from 'glamorous';
 import { Fonts, Colors } from '../config';
 
 const Title = glamorous.p({
-	fontSize: 20,
+	fontSize: Fonts.mediumSize,
 	lineHeight: 1,
 	marginBottom: 0,
 	display: 'inline',

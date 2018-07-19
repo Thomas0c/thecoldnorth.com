@@ -2,7 +2,7 @@ import glamorous from 'glamorous';
 import { Fonts, Colors } from '../config';
 
 const Text = glamorous.p({
-	fontSize: 14,
+	fontSize: Fonts.smallSize,
 	color: Colors.white,
 	fontFamily:  Fonts.body,
 	fontWeight: 200,

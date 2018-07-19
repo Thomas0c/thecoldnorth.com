@@ -1,11 +1,10 @@
-import React from 'react';
 import glamorous from 'glamorous';
 import { Colors, Fonts } from '../config';
 
 const Logo = glamorous.div({
 	color: Colors.yellow,
 	position: 'relative',
-	fontSize: 20,
+	fontSize: Fonts.mediumSize,
 	fontFamily: Fonts.default,
 	cursor: 'pointer',
 	padding: '2rem'

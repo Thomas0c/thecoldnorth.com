@@ -1,12 +1,12 @@
-import React from 'react';
 import glamorous from 'glamorous';
+import { Margins } from '../config';
 
 const ContentContainer = glamorous.div({
 	width: '50%',
 	minHeight: '30vh',
 	position: 'relative',
 	zIndex: 5,
-	marginLeft: '2em',
+	marginLeft: Margins.default,
 	'@media(max-width: 1024px)': {
 		width: '85%',
 	}

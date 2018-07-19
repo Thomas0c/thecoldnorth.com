@@ -1,14 +1,13 @@
-import React from 'react';
 import glamorous from 'glamorous';
 
 import Divider from './divider';
 import Text from './text';
 import YellowLink from './coloredLink';
-import { Colors, Fonts } from '../config';
+import { Colors, Fonts, Margins } from '../config';
 
 const Introduction = glamorous.div({
 	width: '50%',
-	marginLeft: '2em',
+	marginLeft: Margins.default,
 	color: Colors.white,
 	zIndex: 5,
 	position: 'relative',
@@ -20,19 +19,19 @@ const Introduction = glamorous.div({
 
 const EntryLine = glamorous.div({
 	width: '100%',
-	fontSize: '36px',
+	fontSize: Fonts.bigSize,
 	lineHeight: Fonts.lineHeight,
 	color: Colors.white,
 	fontFamily: Fonts.default,
 	'@media(max-width: 1024px)': {
-		fontSize: '28px',
+		fontSize: Fonts.mobileBigSize,
 	}
 });
 
 const Button = glamorous.a({
 	fontFamily: Fonts.default,
 	color: Colors.yellow,
-	fontSize: 14,
+	fontSize: Fonts.smallSize,
 	cursor: 'pointer',
 	letterSpacing: 0.5,
 	margin: '0 10px 0 0',

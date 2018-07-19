@@ -1,13 +1,12 @@
-import React from 'react';
 import glamorous from 'glamorous';
+import { Colors } from '../config';
 
 const Divider = glamorous.div({
 	height: 1,
 	marginTop: '15px',
-	width: '60%',
-	background: '#8A8F93',
-	'@media(max-device-width: 640px)': {
-		width: '100%',
+	width: '100%',
+	background: Colors.grey,
+	'@media(max-width: 1024px)': {
 		marginTop: '20px'
 	}
 });
