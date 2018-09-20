@@ -16,7 +16,7 @@
   "dependencies": {
     "glamor": "2.20.40",
     "glamorous": "4.13.1",
-    "next": "6.1.1",
+    "next": "7.0.0",
     "react": "16.4.1",
     "react-dom": "16.4.2",
     "react-ga": "2.5.3",
