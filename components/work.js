@@ -55,7 +55,7 @@ export default () => {
 				<SectionTitle>Experience</SectionTitle>
 				<Wrapper>
 					{work.map((workPlace) => (
-						<Section>
+						<Section key={workPlace.place}>
 							<Date>{workPlace.start}-{workPlace.end}, {workPlace.city}</Date>
 							<Title>{workPlace.title} at {workPlace.place}</Title>
 						</Section>

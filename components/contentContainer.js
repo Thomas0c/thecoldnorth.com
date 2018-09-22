@@ -7,6 +7,7 @@ const ContentContainer = glamorous.div({
 	position: 'relative',
 	zIndex: 5,
 	marginLeft: Margins.default,
+	margin: '0 auto',
 	'@media(max-width: 1024px)': {
 		width: '85%',
 	}

@@ -10,6 +10,7 @@ const Introduction = glamorous.div({
 	marginLeft: Margins.default,
 	color: Colors.white,
 	zIndex: 5,
+	margin: '0 auto',
 	position: 'relative',
 	'@media(max-width: 1024px)': {
 		width: '85%',
