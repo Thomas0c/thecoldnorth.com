@@ -1,1 +1,9 @@
-{}
+{
+  "alias": [
+    "thecoldnorth.com",
+    "www.thecoldnorth.com"
+  ],
+  "engines": {
+    "node": "7.4.0"
+  }
+}

@@ -14,8 +14,9 @@
 * Run `yarn run build`
 * Static files will then be built and output in `out`
 
-## Netlify Deployment
-WIP
+## Now.sh Deployment
+* Deployment is done using [now.sh](https://now.sh)
+* Deployments are automatically done as part of each PR
 
 ### Styling using Glamorous
 [Glamorous](https://glamorous.rocks/) in used as the CSS-in-JS solution to handle styling. CSS-in-JS has been chosen in order to containerize every component and thereby keep both component and styling for same within the same file to make the styling-to-component relationship obvious and easy to navigate.
