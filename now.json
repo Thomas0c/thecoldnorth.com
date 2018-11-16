@@ -3,7 +3,12 @@
     "thecoldnorth.com",
     "www.thecoldnorth.com"
   ],
+  "version": 2,
   "engines": {
     "node": "7.4.0"
-  }
+  },
+  "files": [
+    "out"
+  ],
+  "regions": ["bru"]
 }
