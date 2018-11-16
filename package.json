@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build && next export",
+    "deploy": "npm run build && cp now.json ./out && now ./out",
     "start": "next start",
     "snyk-protect": "snyk protect",
     "prepare": "npm run snyk-protect"
