@@ -50,7 +50,7 @@ export default () => {
 	return (
 		<Introduction>
 			<EntryLine>
-				Thomas Carlson is a developer at <YellowLink href="http://ustwo.com/">ustwo</YellowLink> in Malmö. <br />
+				Thomas Carlson is a developer at <YellowLink href="https://hellogreatworks.com/">hello great works</YellowLink> in Copenhagen. <br />
 				Equal parts problem solver &amp; creative full stack developer.
 			</EntryLine>
 			<Divider />

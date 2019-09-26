@@ -1,11 +1,9 @@
 {
   "alias": [
-    "thecoldnorth.com",
-    "www.thecoldnorth.com"
+    "coldnorth.space",
+    "www.coldnorth.space"
   ],
+  "builds": [{ "src": "package.json", "use": "@now/next" }],
   "version": 2,
-  "engines": {
-    "node": "7.4.0"
-  },
   "regions": ["bru"]
 }
