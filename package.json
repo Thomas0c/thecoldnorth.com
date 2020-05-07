@@ -7,7 +7,9 @@
     "dev": "next",
     "build": "next build && next export",
     "deploy": "npm run build && cp now.json ./out && now ./out",
-    "start": "next start"
+    "start": "next start",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "keywords": [],
   "author": "Thomas Carlson",
@@ -19,7 +21,7 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.2",
     "react-ga": "2.5.3",
-    "snyk": "1.88.1"
+    "snyk": "^1.319.1"
   },
   "devDependencies": {
     "eslint": ">=4.18.2",
