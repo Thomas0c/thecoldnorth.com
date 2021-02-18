@@ -25,7 +25,7 @@ const WorkWrapper = glamorous.div({
 const work = [{
 	title: 'Lead Developer',
 	city: 'Copenhagen',
-	place: 'hello great works',
+	place: 'noa ignite denmark',
 	start: '2019',
 	end: 'Present'
 },{
