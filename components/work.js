@@ -23,7 +23,7 @@ const WorkWrapper = glamorous.div({
 });
 
 const work = [{
-	title: 'Lead Developer',
+	title: 'Tech Lead',
 	city: 'Copenhagen',
 	place: 'noa ignite denmark',
 	start: '2019',
