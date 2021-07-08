@@ -1,5 +1,4 @@
 import React from 'react';
-import { Head } from 'next/head';
 import { rehydrate, css } from 'glamor';
 import { Colors, Fonts } from '../config';
 
@@ -7,7 +6,7 @@ import { Colors, Fonts } from '../config';
 import Logo from '../components/logo';
 import Introduction from '../components/introduction';
 import Work from '../components/work';
-import Snow from '../components/Snow';
+import Snow from '../components/snow';
 
 // Has to run before any `style()` calls
 // '__NEXT_DATA__.ids' is set in '_document.js'
