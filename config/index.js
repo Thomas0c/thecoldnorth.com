@@ -8,7 +8,7 @@ export const Colors = {
 };
 
 export const Margins = {
-	default: '2em',
+	default: '2rem',
 };
 
 export const Fonts = {

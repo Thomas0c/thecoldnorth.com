@@ -5,7 +5,7 @@ const SectionTitle = glamorous.p({
 	fontSize: Fonts.mediumSize,
 	color: Colors.white,
 	lineHeight: 1,
-	marginBottom: '40px',
+	marginBottom: '3rem',
 	fontFamily: Fonts.default,
 });
 

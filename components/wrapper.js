@@ -6,7 +6,7 @@ const wrapper = glamorous.div({
 	margin: '0 auto',
 	fontFamily: Fonts.body,
 	color: Colors.white,
-	marginBottom: '10px'
+	marginBottom: '1rem'
 });
 
 export default wrapper;

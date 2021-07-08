@@ -12,22 +12,27 @@ import Title from './title';
 const WorkWrapper = glamorous.div({
 	width: '100%',
 	backgroundColor: Colors.mediumBlue,
-	marginTop: '40px',
-	paddingTop: '20px',
-	paddingBottom: '20px',
+	marginTop: '4rem',
+	paddingTop: '2rem',
+	paddingBottom: '2rem',
 	'@media(max-width: 1024)': {
-		marginTop: '60px',
-		paddingTop: '50px',
+		marginTop: '6rem',
+		paddingTop: '5rem',
 		paddingBottom: '1rem'
 	}
 });
 
 const work = [{
+	title: 'Hiatus',
+	city: 'Copenhagen',
+	start: '2021',
+	end: 'present'
+},{
 	title: 'Tech Lead',
 	city: 'Copenhagen',
 	place: 'noa ignite denmark',
 	start: '2019',
-	end: 'Present'
+	end: '2021'
 },{
 	title: 'Developer',
 	city: 'Malmö',
@@ -54,20 +59,20 @@ const work = [{
 	end: '2013'
 }];
 
-export default () => {
-	return (
-		<WorkWrapper>
-			<WorkContainer>
-				<SectionTitle>Experience</SectionTitle>
-				<Wrapper>
-					{work.map((workPlace) => (
-						<Section key={workPlace.place}>
-							<Date>{workPlace.start}-{workPlace.end}, {workPlace.city}</Date>
-							<Title>{workPlace.title} at {workPlace.place}</Title>
-						</Section>
-					))}
-				</Wrapper>
-			</WorkContainer>
-		</WorkWrapper>
-	);
-};
+const Work = () => (
+	<WorkWrapper>
+		<WorkContainer>
+			<SectionTitle>Experience</SectionTitle>
+			<Wrapper>
+				{work.map((workPlace) => (
+					<Section key={workPlace.place}>
+						<Date>{workPlace.start}-{workPlace.end}, {workPlace.city}</Date>
+						<Title>{workPlace.title} {workPlace.place && `at ${workPlace.place}`}</Title>
+					</Section>
+				))}
+			</Wrapper>
+		</WorkContainer>
+	</WorkWrapper>
+);
+
+export default Work;

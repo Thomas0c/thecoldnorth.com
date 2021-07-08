@@ -20,7 +20,6 @@ export default class MyDocument extends Document {
 		return (
 			<html>
 				<Head>
-					<title>The Cold North</title>
 					<link
 						rel="icon"
 						type="image/png"

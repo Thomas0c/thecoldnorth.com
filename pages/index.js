@@ -6,7 +6,6 @@ import { Colors, Fonts } from '../config';
 import Logo from '../components/logo';
 import Introduction from '../components/introduction';
 import Work from '../components/work';
-import Snow from '../components/snow';
 import Projects from '../components/projects';
 
 // Has to run before any `style()` calls
@@ -38,7 +37,6 @@ export default class Layout extends Component {
 			<>
 				<Logo />
 				<Introduction />
-				<Snow />
 				<Work />
 				<Projects />
 			</>

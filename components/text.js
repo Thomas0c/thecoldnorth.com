@@ -9,7 +9,7 @@ const Text = glamorous.p({
 	letterSpacing: 0.5,
 	lineHeight: 1.8,
 	'@media(max-width: 1024px)': {
-		marginTop: 20
+		marginTop: '2rem'
 	}
 });
 
