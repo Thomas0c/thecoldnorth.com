@@ -1,5 +1,5 @@
 import glamorous from 'glamorous';
-import { Colors } from '../config';
+import { Colors } from '../config';
 
 // Elements
 import Section from './section';
@@ -19,8 +19,8 @@ const ProjectWrapper = glamorous.div({
 	paddingTop: '2rem',
 	paddingBottom: '.5rem',
 	'@media(max-width: 1024)': {
-		paddingTop: '4rem'
-	}
+		paddingTop: '4rem',
+	},
 });
 
 const Projects = () => (
@@ -34,24 +34,15 @@ const Projects = () => (
 					<Title>Solar Weather App</Title>
 					<Divider />
 					<Text>
-						React Native experiment including Realm, Redux and DarkSky API.
-						Wanted to become familiar with React Native as well as the flow and requirements
-						for launching an application in the Apple App Store.
-						Worked on project from UX, design and final realease on the{' '}
-						<YellowLink href="https://itunes.apple.com/us/app/solar-weather-collection/id1220264561?mt=8">
-							App Store
-						</YellowLink>.
-						Source on {' '}
-						<YellowLink href="https://github.com/Thomas0c/solar-weather">
-							GitHub
-						</YellowLink>.
+						React Native experiment including Realm, Redux and DarkSky API. Wanted to become familiar with React Native as well as the flow
+						and requirements for launching an application in the Apple App Store. Worked on project from UX, design and final realease on
+						the <YellowLink href="https://itunes.apple.com/us/app/solar-weather-collection/id1220264561?mt=8">App Store</YellowLink>. Source
+						on <YellowLink href="https://github.com/Thomas0c/solar-weather">GitHub</YellowLink>.
 					</Text>
 				</Section>
 			</Wrapper>
-
 		</WorkContainer>
 	</ProjectWrapper>
-)
+);
 
 export default Projects;
-

@@ -1,5 +1,5 @@
 import glamorous from 'glamorous';
-import { Colors, Fonts } from '../config';
+import { Colors, Fonts } from '../config';
 
 const SectionTitle = glamorous.p({
 	fontSize: Fonts.mediumSize,

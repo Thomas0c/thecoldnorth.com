@@ -13,7 +13,7 @@ const config = {
 		yMin: -1,
 		yMax: -0.6,
 		zMin: -0.6,
-		zMax: 0.3
+		zMax: 0.3,
 	},
 	lines: {
 		colorMode: 'solid',
@@ -22,7 +22,7 @@ const config = {
 		limitConnections: true,
 		maxConnections: 20,
 		minDistance: 200,
-		visible: false
+		visible: false,
 	},
 	particles: {
 		colorMode: 'solid',
@@ -33,7 +33,7 @@ const config = {
 		count: 200,
 		minSize: 1,
 		maxSize: 40,
-		visible: true
+		visible: true,
 	},
 	cameraControls: {
 		enabled: false,
@@ -42,12 +42,11 @@ const config = {
 		enableZoom: false,
 		autoRotate: false,
 		autoRotateSpeed: 0,
-		resetCameraFlag: false
+		resetCameraFlag: false,
 	},
 	limitConnections: true,
-	maxConnections: 0
+	maxConnections: 0,
 };
-
 
 const SnowWrapper = glamorous.div({
 	position: 'fixed',
@@ -56,7 +55,7 @@ const SnowWrapper = glamorous.div({
 	pointerEvents: 'none',
 	height: '100vh',
 	width: '100vw',
-	zIndex: 2
+	zIndex: 2,
 });
 
 const Snow = () => (

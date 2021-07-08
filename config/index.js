@@ -20,4 +20,4 @@ export const Fonts = {
 	smallSize: 14,
 	bigSize: 36,
 	mobileBigSize: 28,
-}
+};

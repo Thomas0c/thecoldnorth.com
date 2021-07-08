@@ -1,7 +1,7 @@
 import React from 'react';
 import { Head } from 'next/head';
 import { rehydrate, css } from 'glamor';
-import { Colors, Fonts } from '../config';
+import { Colors, Fonts } from '../config';
 
 // Components
 import Logo from '../components/logo';

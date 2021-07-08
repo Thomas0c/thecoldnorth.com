@@ -11,15 +11,15 @@ const LogoWrapper = glamorous.div({
 	transition: 'opacity .3s',
 	':hover': {
 		opacity: 0.5,
-	}
+	},
 });
 
 const Logo = () => (
 	<LogoWrapper>
-		the<br />
+		the
+		<br />
 		<b>cold north</b>
 	</LogoWrapper>
-)
+);
 
 export default Logo;
-

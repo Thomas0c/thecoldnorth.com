@@ -1,5 +1,5 @@
 import glamorous from 'glamorous';
-import { Colors } from '../config';
+import { Colors } from '../config';
 
 const Section = glamorous.div({
 	width: '100%',

@@ -1,5 +1,5 @@
 import glamorous from 'glamorous';
-import { Fonts, Colors } from '../config';
+import { Fonts, Colors } from '../config';
 
 const Date = glamorous.span({
 	fontSize: 18,

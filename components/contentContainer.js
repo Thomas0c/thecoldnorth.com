@@ -1,5 +1,5 @@
 import glamorous from 'glamorous';
-import { Margins } from '../config';
+import { Margins } from '../config';
 
 const ContentContainer = glamorous.div({
 	width: '50%',
@@ -10,7 +10,7 @@ const ContentContainer = glamorous.div({
 	margin: '0 auto',
 	'@media(max-width: 1024px)': {
 		width: '85%',
-	}
+	},
 });
 
 export default ContentContainer;
