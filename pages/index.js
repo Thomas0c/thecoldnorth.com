@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { rehydrate, css } from 'glamor';
-import { initGA, logPageView } from '../utils/analytics';
 import { Colors, Fonts } from '../config';
 
 // Components
@@ -34,13 +33,6 @@ css.global('html, body', {
 });
 
 export default class Layout extends Component {
-	componentDidMount() {
-		if (!window.GA_INITIALIZED) {
-			initGA();
-			window.GA_INITIALIZED = true;
-		}
-		logPageView();
-	}
 	render() {
 		return (
 			<>
