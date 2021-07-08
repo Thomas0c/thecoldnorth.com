@@ -48,25 +48,24 @@ const Button = glamorous.a({
 const Introduction = () => (
 	<IntroductionWrapper>
 		<EntryLine>
-			Multi-disciplinary developer based in Copenhagen.<br />
+			Thomas Carlson, Copenhagen.
 			Equal parts problem solver &amp; creative full stack developer.<br />
-			Currently very excited about React Native.
 		</EntryLine>
 		<Divider />
 		<Text>
 			Swiss knife includes vanilla JavaScript, NoSQL, Vue, React (Native), Node, Swift, containers &amp; infrastructure-as-code.</Text>
 		<br />
 		<Button href="mailto:thomas@thecoldnorth.com">
-			<img src="./static/email.svg" />
+			<img width="30" height="30" alt="Email icon" src="./static/email.svg" />
 		</Button>
 		<Button href="https://github.com/Thomas0c">
-			<img src="./static/github.svg" />
+			<img width="30" height="30" alt="GitHub icon" src="./static/github.svg" />
 		</Button>
 		<Button href="https://www.linkedin.com/in/thomasoc/">
-			<img src="./static/linkedin.svg" />
+			<img width="30" height="30" alt="LinkedIn icon" src="./static/linkedin.svg" />
 		</Button>
 		<Button href="https://twitter.com/Thomasoc">
-			<img src="./static/twitter.svg" />
+			<img width="30" height="30" alt="Twitter icon" src="./static/twitter.svg" />
 		</Button>
 	</IntroductionWrapper>
 )

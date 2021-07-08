@@ -1,26 +1,68 @@
+import ParticleField from 'react-particles-webgl';
 import glamorous from 'glamorous';
-import { css } from 'glamor';
 
-const snowMovement = css.keyframes({
-	'0%': { backgroundPosition: '0px 0px, 0px 0px, 0px 0px' },
-	'50%': { backgroundPosition: '500px 500px, 100px 200px, -100px 150px' },
-	'100%': { backgroundPosition: '500px 1000px, 200px 400px, -100px 300px' }
-});
+const config = {
+	showCube: false,
+	dimension: '3D',
+	velocity: 2.5,
+	boundaryType: 'passthru',
+	antialias: false,
+	direction: {
+		xMin: -0.6,
+		xMax: 0.3,
+		yMin: -1,
+		yMax: -0.6,
+		zMin: -0.6,
+		zMax: 0.3
+	},
+	lines: {
+		colorMode: 'solid',
+		color: '#ffffff',
+		transparency: 0.5,
+		limitConnections: true,
+		maxConnections: 20,
+		minDistance: 200,
+		visible: false
+	},
+	particles: {
+		colorMode: 'solid',
+		color: '#ffffff',
+		transparency: 0.7,
+		shape: 'circle',
+		boundingBox: 'canvas',
+		count: 200,
+		minSize: 1,
+		maxSize: 40,
+		visible: true
+	},
+	cameraControls: {
+		enabled: false,
+		enableDamping: true,
+		dampingFactor: 0.35,
+		enableZoom: false,
+		autoRotate: false,
+		autoRotateSpeed: 0,
+		resetCameraFlag: false
+	},
+	limitConnections: true,
+	maxConnections: 0
+};
 
-const Snow = glamorous.div({
-	background: 'none',
-	backgroundImage: 'url("./static/snow.png"), url("./static/snow2.png")',
-	opacity: 0.15,
-	height: '100%',
-	left: 0,
+
+const SnowWrapper = glamorous.div({
 	position: 'fixed',
 	top: 0,
-	width: '100%',
-	zIndex: 0,
-	animation: `${snowMovement} 40s linear infinite`,
-	'@media(max-device-width: 1024px)': {
-		opacity: 0.5
-	}
+	left: 0,
+	pointerEvents: 'none',
+	height: '100vh',
+	width: '100vw',
+	zIndex: 2
 });
 
-export default () => <Snow />;
+const Snow = () => (
+	<SnowWrapper>
+		<ParticleField config={config} />
+	</SnowWrapper>
+);
+
+export default Snow;

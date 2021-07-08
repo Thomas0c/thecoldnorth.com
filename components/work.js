@@ -65,7 +65,7 @@ const Work = () => (
 			<SectionTitle>Experience</SectionTitle>
 			<Wrapper>
 				{work.map((workPlace) => (
-					<Section key={workPlace.place}>
+					<Section key={workPlace.title}>
 						<Date>{workPlace.start}-{workPlace.end}, {workPlace.city}</Date>
 						<Title>{workPlace.title} {workPlace.place && `at ${workPlace.place}`}</Title>
 					</Section>
